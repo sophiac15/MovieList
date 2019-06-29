@@ -134,7 +134,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
                 // show activity
                 context.startActivity(intent);
             }
-                Movie movie = movies.get(position);
+            Movie movie = movies.get(position);
 
             }
     }

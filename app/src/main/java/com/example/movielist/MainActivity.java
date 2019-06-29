@@ -35,16 +35,12 @@ public class MainActivity extends AppCompatActivity {
 
     //declaring instance fields
     AsyncHttpClient client;
-
     // list of currently playing movies
     ArrayList<Movie> movies;
-
     // recycler view
     RecyclerView rvMovies;
-
     // adapter wired to the recycler view
     MovieAdapter adapter;
-
     // image config
     Config config;
 
